@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+  	<meta name="viewport" content="width=device-width" initial-scale="1" />
+  	<title style="float: centre"> Login </title>
+  	<style type="text/css">
+  		h1 {
+  			text-align: center;
+  			font-size: 24px;
+  		}
+		#sheet {
+			background-color: gray;
+			width: 10cm;
+			height: 245px;
+			margin: 590px;
+			padding: 3px;
+			text-align: center;
+			border-radius: 1.5cm;
+		}       
+  		#login {
+  			border-radius: 3cm;
+  			height: 0.75cm;
+  			width: 1.5cm;
+  		}
+  		#pass {
+  			line-height: 1cm;
+  			border-radius: 2cm;
+  			width: 7.5cm;
+  			text-align: center;
+  		}
+  		#user {
+  			line-height: 1cm;
+  			border-radius: 2cm;
+  			text-align:center;
+  			width: 7.5cm;
+  		}
+  	</style>
+  </head>
+  <body >
+   <div  id="sheet">
+  	<div>
+  		<br />
+  		<h1> LOGIN </h1>
+  	</div> 
+  	<div>
+  	    <p style="text-align: center">
+  		   <input type="text" id="user" placeholder="Username"/>
+        </p>
+        <p style="text-align: center">
+           <input type="password" id="pass" placeholder="Password"/>
+        </p>
+        <p style="text-align: center">
+        	<button id="login" onclick="changePage();"> Login </button>
+        </p>	
+  	</div>
+  </div>
+  </body>
+ </html>
+
